@@ -30,8 +30,7 @@ app.get("/archivos", async (req, res) => {
 });
 
 app.get("/archivos/:fileName", async (req, res) => {
-  const extension = fileName.split(".").pop();
-  console.log("filename: " + fileName);
+  const extension = req.params.fileName.split(".").pop();
   const result = await getFileURL(req.params.fileName);
   res.json({
     url: result,
