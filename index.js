@@ -10,7 +10,7 @@ import cors from 'cors';
 import mime from 'mime';
 
 const corsOptions = {
-  origins: ["http://localhost:4200", "https://example.com"],
+  origins: ["http://localhost:4200", "http://3.14.57.230"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   headers: ["Content-Type", "Authorization"],
 };
