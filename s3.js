@@ -3,8 +3,8 @@ import fs from 'fs'
 import {getSignedUrl} from '@aws-sdk/s3-request-presigner'
 const BUCKET_NAME = 'awsunibe'
 const BUCKET_REGION ='us-east-2'
-const PUBLIC_KEY = 'AKIATHGZBEJMMY44HIP2'
-const SECRET_KEY = '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'
+const PUBLIC_KEY = '****'
+const SECRET_KEY = '***'
 
 
 const client = new S3Client({
